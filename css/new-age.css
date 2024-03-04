@@ -1,0 +1,700 @@
+/*!
+ * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+
+
+
+/**********************************************/
+/**************** Overall *********************/
+/**********************************************/
+.heading-font {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.body-font {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+.alt-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #8dc442;
+  text-decoration: underline;
+}
+a:hover,
+a:focus {
+  color: #307682;
+}
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+hr.light {
+  border-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.text-primary {
+  color: #307682;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-outline {
+  color: #0d544e;
+  background-color: #8dc442;
+  /*border-color: #307682;
+  border: 1px solid;*/
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #0d544e;
+  background-color: white;
+  /*border-color: #8dc442;*/
+}
+.btn {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+  color: #0d544e;
+}
+.btn-xl {
+  padding: 15px 45px;
+  font-size: 14px;
+  /*display: block;
+  width: 187px;*/
+  margin: auto;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #232a35;
+}
+::selection {
+  color: #8dc442;
+  /*background-color: #fff;*/
+  text-shadow: none;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #8dc442;
+}
+.logo {
+  width: 75%;
+}
+
+
+
+
+
+/**********************************************/
+/**************** NavBar **********************/
+/**********************************************/
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.navbar-default .navbar-header .navbar-brand {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #8dc442;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #8dc442;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-size: 12px;
+  color: #232a35;
+  padding: 8px 10px;
+}
+.navbar-default .nav > li > a {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  color: #8dc442;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #8dc442;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #8dc442;
+  background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.1);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #232a35;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #8dc442;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #232a35;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #8dc442;
+  }
+}
+
+
+
+/**********************************************/
+/**************** Hero Image ******************/
+/**********************************************/
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background-image: url("../img/hackForHumanity.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+header .header-content {
+  text-align: center;
+  padding: 150px 0 50px;
+  position: relative;
+}
+header .header-content .header-content-inner {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+}
+header .header-content .header-content-inner h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+header .header-content .header-content-inner .list-badges {
+  margin-bottom: 25px;
+}
+header .header-content .header-content-inner .list-badges img {
+  height: 50px;
+  margin-bottom: 25px;
+}
+header .device-container {
+  max-width: 300px;
+  margin: 0 auto 100px;
+}
+header .device-container .screen img {
+  border-radius: 3px;
+}
+
+.btn-hero {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    text-align: left;
+    padding: 0;
+    height: 100vh;
+  }
+  header .header-content .header-content-inner {
+    max-width: none;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 35px;
+  }
+  header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;
+  }
+  .btn-hero {
+    visibility: visible;
+  }
+}
+@media (min-width: 992px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+}
+
+header .inline-button {
+  display: inline;
+  margin: 0% 1% 0% 1%;
+}
+
+
+/**********************************************/
+/************* Sponsors Section ***************/
+/**********************************************/
+section.sponsors {
+  padding: 75px 0;
+  position: relative;
+}
+
+/*section.sponsors .badges .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+section.sponsors h2 {
+  margin-top: -25px;
+  font-size: 50px;
+}
+section.sponsors .badges center {
+  width: 100%;
+}
+
+section.sponsors .badges img {
+  border-radius: 50%;
+  width: inherit;
+  height: auto;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  section.sponsors h2 {
+    font-size: 70px;
+  }
+}
+#bigdatafed {
+    background: white;
+}
+
+section.sponsors .logos img{
+  width: 6%;
+  height: auto;
+}
+
+section.sponsors img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/**********************************************/
+/************* About Section ******************/
+/**********************************************/
+section.about .section-heading {
+  margin: 50px 0 50px 0;
+}
+section.about .section-heading h2 {
+  margin-top: -100px;
+}
+section.about .section-heading p {
+  margin-bottom: 0;
+}
+section.about .device-container,
+section.about .feature-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+section.about .device-container {
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  section.about .device-container {
+    margin-bottom: 0;
+  }
+}
+section.about .feature-item {
+  text-align: center;
+/*  margin-bottom: 100px;*/
+}
+section.about .feature-item h3 {
+  font-size: 25px;
+}
+section.about .feature-item i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  section.about .device-container,
+  section.about .feature-item {
+    max-width: none;
+  }
+}
+
+section.about table {
+  margin: auto;
+  width: 100%;
+}
+
+section.about td {
+  padding: 15px;
+}
+
+section.about td:first-child {
+  width: 100px;
+  border-right: 1px solid grey;
+  text-align: right;
+}
+
+section.about td:nth-child(2) {
+  text-align: left;
+}
+
+
+
+
+
+/**********************************************/
+/************* Recap Section ******************/
+/**********************************************/
+section.recap .section-heading {
+  margin: 50px 0 0px 0;
+}
+section.recap .section-heading h2 {
+  margin-top: -100px;
+}
+section.recap img {
+    max-height: 75%;
+    max-width: 75%;
+    display: block;
+    margin: auto;
+}
+
+/* CSS for youtube video */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%; /* creates a 16:9 aspect ratio */
+}
+
+.video-container iframe,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* And set the max-width of the parent element */
+.video-wrap {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+
+
+
+/**********************************************/
+/************ Signups Section *****************/
+/**********************************************/
+section.cta {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/background.jpg');
+  padding: 250px 0;
+}
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+section.cta .cta-content h2 {
+  margin: -100px auto 25px auto;
+  color: white;
+  max-width: 450px;
+  font-size: 50px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
+}
+section.cta .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+/**********************************************/
+/********* Contact (DEPRECATED) ***************/
+/**********************************************/
+section.contact {
+  text-align: center;
+}
+section.contact h2 {
+  margin-top: -50px;
+  margin-bottom: 15px;
+}
+section.contact h2 i {
+  color: #9d2235;
+}
+section.contact ul.list-social {
+  margin-bottom: -60px;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+
+
+
+
+/**********************************************/
+/************** Mentors Section ***************/
+/**********************************************/
+section.mentors {
+  padding: 75px 0;
+  position: relative;
+}
+
+section.mentors h2 {
+  margin-top: -25px;
+  font-size: 50px;
+}
+
+section.mentors .mb-0 {
+  margin-bottom: 5px;
+}
+
+section.mentors .blockquote-footer {
+  background-color: transparent;
+  padding: 0 10% 0 0;
+  color: #fff;
+  text-align: right;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  section.mentors h2 {
+    font-size: 70px;
+  }
+}
+
+
+
+
+/**********************************************/
+/*********** Footer (DEPRECATED) **************/
+/**********************************************/
+footer {
+  background-color: #232a35;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+
+hr.sponsor-cutoff {
+  height: 1px;
+  min-height: 0px;
+  border: none;
+  margin: 0;
+  background: white;
+  position: relative;
+  top: -75px;
+  width: 75%;
+  max-width: initial;
+  margin-left: 12.5%;
+}
+
+a.no-decor {
+  text-decoration: none;
+}
+
+.bg-primary {
+  background: #0d544e;
+}
+
+.page-scroll::selection,
+.page-scroll.active,
+.page-scroll:hover{
+  color: #8dc442;
+}
+
+.carousel-caption{
+  background-color: rgb(0, 0, 0, .7);
+}
+
+/*.row {
+    text-align: center;
+}
+
+.col-md-1 {
+    display:inline-block;
+}*/
+.logos a{
+  padding: min(30px, 5vw) !important;
+}
+
+
+/* I created a new footer class below to make the social media logos flex */
+
+section.footer div.logos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+section.footer div.logos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+section.footer div.logos img{
+  width: clamp(40px, 5vw, 75px);
+}
+
+section.footer h2 {
+  margin-top: -25px;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  section.footer h2 {
+    font-size: 70px;
+  }
+}

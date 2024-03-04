@@ -1,0 +1,99 @@
+/*** CUSTOMIZATIONS ***/
+
+:root {
+	--primary: #7FCB73;
+	--background: #0D544E;
+}
+
+::selection {
+  color: var(--primary);
+  /*background-color: #fff;*/
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1 {
+	font-weight: 500;
+}
+
+/*** GOOGLE MATERIAL DESIGN ICON ***/
+
+.material-symbols-outlined.help{
+	font-size: 18px;
+}
+
+.material-symbols-outlined.info{
+	font-size: 13px;
+}
+
+/*** SPONSORS ***/
+
+@media (min-width: 992px) {
+	.sponsor-placeholder {
+		width: 12.5% !important;
+	}
+}
+
+.sponsor-placeholder {
+	width: 0;
+}
+
+.signup-button {
+	font-size: 15px;
+	padding: 12px 45px;
+	background-color: rgba(140, 197, 47, 0.8);
+}
+
+/*** BUTTONS ***/
+
+.button {
+	background: var(--primary);
+	padding: 15px 35px 15px;
+	border-radius: 20px;
+	color: black;
+	font-weight: 500;
+}
+
+.button:hover {
+	background: white;
+	transition: 0.25s;
+}
+
+
+/** HERO **/
+
+.hero {
+  background-image: url("../img/h4h-hero1.jpg"), url("../img/h4h-hero1-low-res.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+}
+
+.hero .container h1, h2 {
+	color: white;
+}
+
+.hero-title {
+	font-size: 3.5em;
+	font-weight: 700 !important;
+}
+
+@media (max-width: 425px) {
+	.hero-title {
+		font-size: 2em;
+	}
+
+	.hero .container h2 {
+		font-size: 1.5em;
+	}
+}
+
+/*** ABOUT ***/
+
+.faq-help {
+	font-weight: 600;
+	font-size: 20px;
+}
