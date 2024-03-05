@@ -49,7 +49,7 @@ section {
 	margin: 30px auto 10px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
 	.section-heading {
 		font-size: 36px;
 	}
@@ -100,7 +100,7 @@ span.highlighted {
 	background: var(--selection);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
 	.button {
 		background: none;
 		padding: 12.5px 40px 12.5px;
@@ -130,7 +130,7 @@ span.highlighted {
 	line-height: 150%;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
 	.hero-title {
 		font-size: 48px;
 	}
