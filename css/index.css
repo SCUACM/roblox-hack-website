@@ -98,7 +98,6 @@ span.highlighted {
 .button:hover {
 	border: var(--selection);
 	background: var(--selection);
-	color: black;
 }
 
 @media (max-width: 425px) {
