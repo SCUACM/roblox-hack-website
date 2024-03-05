@@ -4,7 +4,7 @@
 	--text: white;
 	--highlight: #7FCB73;
 	--background: #181818;
-	--selection: #2e52d2;
+	--selection: #4075df;
 }
 
 ::selection {
@@ -67,6 +67,10 @@ span.highlighted {
 
 .special-text {
 	font-size: clamp(38px, 5vw, 72px);
+	background: linear-gradient(to bottom right, #63CAF6, #2067F1); 
+	-webkit-text-fill-color: transparent; 
+	background-clip: text; 
+	font-weight: 600;
 }
 
 /*** GOOGLE MATERIAL DESIGN ICON ***/
