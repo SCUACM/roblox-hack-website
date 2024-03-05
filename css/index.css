@@ -1,21 +1,28 @@
 /*** CUSTOMIZATIONS ***/
 
 :root {
-	--primary: #7FCB73;
-	--background: #0D544E;
+	--text: white;
+	--highlight: #7FCB73;
+	--background: #181818;
+	--selection: #4d4ae5;
 }
 
 ::selection {
-  color: var(--primary);
-  /*background-color: #fff;*/
+  color: var(--selection);
+}
+
+body {
+	font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+h1, h3 {
+	font-family: "Bai Jamjuree", 'Arial', sans-serif;
 }
 
 section {
   padding: 30px 0;
-}
-
-h1 {
-	font-weight: 500;
+	background: var(--background);
+	color: var(--text);
 }
 
 /*** GOOGLE MATERIAL DESIGN ICON ***/
@@ -28,66 +35,63 @@ h1 {
 	font-size: 13px;
 }
 
-/*** SPONSORS ***/
-
-@media (min-width: 992px) {
-	.sponsor-placeholder {
-		width: 12.5% !important;
-	}
-}
-
-.sponsor-placeholder {
-	width: 0;
-}
-
-.signup-button {
-	font-size: 15px;
-	padding: 12px 45px;
-	background-color: rgba(140, 197, 47, 0.8);
-}
-
 /*** BUTTONS ***/
 
 .button {
-	background: var(--primary);
-	padding: 15px 35px 15px;
-	border-radius: 20px;
-	color: black;
-	font-weight: 500;
+	background: none;
+	padding: 15px 50px 15px;
+	border: solid white 1.5px;
+	border-radius: 999px;
+	color: white;
+	font-weight: 400;
+	font-size: 32px;
 }
 
 .button:hover {
-	background: white;
-	transition: 0.25s;
+	border: var(--selection);
+	background: var(--selection);
+	color: black;
+}
+
+@media (max-width: 425px) {
+	.button {
+		background: none;
+		padding: 12.5px 40px 12.5px;
+		border: solid white 1.5px;
+		border-radius: 999px;
+		color: white;
+		font-weight: 300;
+		font-size: 20px;
+	}
 }
 
 
 /** HERO **/
 
-.hero {
-  background-image: url("../img/h4h-hero1.jpg"), url("../img/h4h-hero1-low-res.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-	background-position: center;
-	background-color: black;
-}
-
-.hero .container h1, h2 {
-	color: white;
+#home {
+	height: 100vh;
 }
 
 .hero-title {
-	font-size: 3.5em;
-	font-weight: 700 !important;
+	font-size: 86px;
+	font-weight: 700;
+}
+
+.hero-sub-title {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 150%;
 }
 
 @media (max-width: 425px) {
 	.hero-title {
-		font-size: 2em;
+		font-size: 48px;
 	}
 
-	.hero .container h2 {
-		font-size: 1.5em;
+	#home .container h2 {
+		font-size: 16px;
+		max-width: 235px;
+		margin: 15px auto;
 	}
 }
 
