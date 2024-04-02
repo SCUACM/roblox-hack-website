@@ -29,6 +29,7 @@ p {
 section {
   padding: 30px 0;
 	color: var(--text);
+	margin-bottom: 100px;
 }
 
 .section-heading {
@@ -117,6 +118,7 @@ span.highlighted {
 
 #home {
 	height: clamp(600px, 100vh, 1620px);
+	margin-bottom: 0px !important;
 }
 
 .hero-title {
