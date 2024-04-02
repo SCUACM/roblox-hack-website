@@ -116,7 +116,7 @@ span.highlighted {
 /** HERO **/
 
 #home {
-	height: clamp(1000px, 100vh, 1620px);
+	height: clamp(600px, 100vh, 1620px);
 }
 
 .hero-title {
