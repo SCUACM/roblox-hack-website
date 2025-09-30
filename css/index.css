@@ -2,9 +2,10 @@
 
 :root {
 	--text: white;
-	--highlight: #7FCB73;
+	--highlight: #d417ff;
 	--background: #181818;
 	--selection: #4075df;
+	--title: #ff3729;
 }
 
 ::selection {
@@ -37,6 +38,7 @@ section {
 	text-align: center;
 	font-size: 48px;
 	font-weight: 600;
+	color: var(--title)
 }
 
 .section-heading span {
@@ -124,6 +126,7 @@ span.highlighted {
 .hero-title {
 	font-size: 86px;
 	font-weight: 700;
+	color: var(--title);
 }
 
 .hero-sub-title {
